@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+.side{
+    font-family: 'Roboto', sans-serif;
+    position: fixed;
+    left:0;
+    height: 100%;
+    width : 250px;
+    background-color: #3B3B98;
+    
+}
+
+.side ul li{
+    font-size : 20px;
+    font-weight: bold;
+    list-style: none;
+}
+
+.side header{
+    font-size : 30px;
+    color: white;
+    text-align: center;
+    line-height: 70px;
+    background-color: #6c5ce7;
+    user-select: none;
+    
+}
+
+.side ul a{
+    display: block;
+    text-decoration: none;
+    height: 100%;
+    width: 100%;
+    line-height: 65px;
+    color:white;
+    padding-left: 10px;
+    box-sizing: border-box;
+    border-top: 1px solid rgba(255, 255, 255, .1);
+    border-bottom: 1px solid black;
+    transition: .3s;
+}
+
+ul li:hover a{
+    padding-left: 50px;
+}
+
+.text{
+    position: fixed;
+    left:251px;
+    width:1500px;
+    height: 100%;
+    overflow:scroll;
+}
+.geul{
+    margin-left: 20px;
+}
+
+body{
+    -ms-overflow-style: none; 
+}
+::-webkit-scrollbar { 
+    display: none; 
+} /*특정 부분 스크롤바 없애기*/ 
+.box{ 
+    -ms-overflow-style: none; 
+} 
+.box::-webkit-scrollbar{ 
+    display:none; 
+}
+
